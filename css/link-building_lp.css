@@ -23,6 +23,12 @@ section {
 	padding-right: 0px;
 	padding-left: 0px;
 }
+.tablecell {
+	display: table-cell;
+	vertical-align: middle;
+	height: auto;
+	
+}
 #lp_wrapper h1 {
 	text-align: center;
 	font-size: 40px;
@@ -70,6 +76,8 @@ section {
 	color: #4aa6c9;
 }
 #lp_wrapper .header {
+	min-height: 600px;
+	height: 600px;
 	background: #f9f9f9 url("https://prokcssdata.blob.core.windows.net/mediacontent/link-building-main-bg.jpg") no-repeat scroll 50% center;
 }
 #lp_wrapper .header .absolute {
