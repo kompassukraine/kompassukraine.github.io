@@ -16,7 +16,9 @@ section {
 #lp_wrapper .relative {
 	position: relative;
 	min-height: 600px;
+	height: 600px;
 	height: auto;
+	display: table-cell;
 }
 #lp_wrapper .pa_fixer {
 	padding-right: 0px;
@@ -72,9 +74,7 @@ section {
 	background: #f9f9f9 url("https://prokcssdata.blob.core.windows.net/mediacontent/link-building-main-bg.jpg") no-repeat scroll 50% center;
 }
 #lp_wrapper .header .absolute {
-	position: absolute;
-	bottom: 25%;
-	width: 100%;
+	vertical-align: middle;
 }
 #lp_wrapper .header h2 {
 	text-align: center;
