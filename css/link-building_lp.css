@@ -17,7 +17,6 @@ section {
 	position: relative;
 	min-height: 600px;
 	height: 600px;
-	height: auto;
 	display: table-cell;
 }
 #lp_wrapper .pa_fixer {
