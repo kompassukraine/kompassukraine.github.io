@@ -11,7 +11,7 @@
 section {
   min-height: 600px;
   height: auto;
-	border-bottom: 4px solid #ed8722;
+	border-bottom: 4px solid #ffff00;
 }
 #lp_wrapper .relative {
 	position: relative;
@@ -27,7 +27,8 @@ section {
 	display: table-cell;
 	vertical-align: middle;
 	height: 600px;
-	
+
+
 }
 #lp_wrapper h1 {
 	text-align: center;
@@ -35,8 +36,9 @@ section {
 	text-transform: uppercase;
 	margin: 0;
 	padding: 0;
-	color: white;
+	color: #ffff00;
 	font-weight: normal;
+  text-shadow: 1px 1px 2px black;
 	}
 #lp_wrapper h3 {
 		font-size: 25px;
@@ -44,27 +46,15 @@ section {
 		}
 #lp_wrapper hr.center {
 	margin: 20px auto;
-	width: 20px;
-	border-top: 1px solid #ed8722;
-	border-bottom: 1px solid #ed8722;
+	width: 200px;
+	border-top: 1px solid #ffff00;
+	border-bottom: 1px solid #ffff00;
 }
 #lp_wrapper a {
-	text-align: center;
-	width: 75%;
-	display: block;
-	font-size: 20px;
-	font-weight: 700;
-	color: #d7002c;
-	margin: 5px auto 10px;
-	padding: 12px 45px;
-	background: white;
-	border: 2px solid #ed8722;
-	border-radius: 5px;
-
+	color: #4aa6c9; 
 }
 #lp_wrapper a:hover {
-	color: #4aa6c9;
-	background: white;
+	color: #d7002c;
 	text-decoration: none;
 }
 #lp_wrapper a.yellow {
@@ -77,8 +67,11 @@ section {
 }
 #lp_wrapper .header {
 	min-height: 600px;
-	height: 600px;
-	background: #f9f9f9 url("https://prokcssdata.blob.core.windows.net/mediacontent/link-building-main-bg.jpg") no-repeat scroll 50% center;
+	height: auto;
+	background: #f9f9f9 url("https://prokcssdata.blob.core.windows.net/mediacontent/link-building-main-bg.jpg") no-repeat  center center;
+  background-size: cover;
+  padding: 50px 0;
+
 }
 #lp_wrapper .header .absolute {
 	vertical-align: middle;
@@ -94,15 +87,19 @@ section {
 #lp_wrapper .header p {
 	text-align: center;
 	font-size: 25px;
-	margin: 0 0 20px 0;
+	margin: 0 0 10px 0;
 	padding: 0;
 	color: white;
 	}
+#lp_wrapper .himg {
+  text-align: center;
+}
 
 
 #lp_wrapper section.about {
-	padding: 80px 0 400px;
-	background: white url("https://prokcssdata.blob.core.windows.net/mediacontent/eximpata_1section_bg.jpg") no-repeat scroll bottom center;
+	padding: 80px 0;
+	background: white url("https://prokcssdata.blob.core.windows.net/mediacontent/link-building-about-bg.png") no-repeat scroll bottom center;
+  background-size: cover;
 }
 #lp_wrapper section.about h2, #lp_wrapper section.possibilities h2 {
 	text-align: center;
@@ -110,25 +107,27 @@ section {
 	font-weight: 600;
 	margin: 0;
 	padding: 0;
-	color: #ed8722;
+	color: #116d96;
 	}
 #lp_wrapper section.about p {
 	text-align: center;
-	font-size: 25px;
-	margin: 20px auto 40px;
+	font-size: 20px;
+	margin: 20px auto;
 	padding: 20px;
 	background: white;
-	border: 2px solid #4aa6c9;
 	width: 75%;
 	}
-#lp_wrapper .price {
-	margin: 0 auto 20px;
-	text-align: center;
-}
-#lp_wrapper .price span {
-	color: #4aa6c9;
-	padding: 12px 45px;
+#lp_wrapper section.about p.spesial {
+	border: 2px solid #4aa6c9;
 	font-size: 25px;
+	background-color: rgba(255, 255, 255, 0.7);
+	border-radius: 5px;
+	}	
+
+#lp_wrapper .about span {
+	color: #d7002c;
+	padding: 12px 45px;
+	font-size: 30px;
 	font-weight: 600;
 }
 #lp_wrapper section.possibilities {
@@ -197,11 +196,28 @@ section {
 #lp_wrapper section.contacts h2 {
 	padding: 0;
 	margin: 0;
+	font-size: 30px;
+}
+#lp_wrapper section.contacts p {
+	font-size: 25px;
 }
 #lp_wrapper section.contacts a {
-	margin-bottom: 80px;
+	text-align: center;
 	width: auto;
 	display: inline-block;
+	font-size: 20px;
+	font-weight: 700;
+	color: #d7002c; 
+	margin: 5px auto 80px;
+	padding: 12px 45px;
+	background: white;
+	border: 2px solid #ed8722;
+	border-radius: 5px;
+
+}
+#lp_wrapper section.contacts a:hover {
+	color: #4aa6c9;
+	text-decoration: none;
 }
 
 #cboxClose {
