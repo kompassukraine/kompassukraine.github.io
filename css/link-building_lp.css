@@ -131,7 +131,6 @@ section {
 
 #lp_wrapper .about span {
 	color: #d7002c;
-	padding: 12px 45px;
 	font-size: 30px;
 	font-weight: 600;
 }
@@ -264,7 +263,7 @@ section {
   #lp_wrapper section.about, #lp_wrapper section.possibilities {
   	padding: 80px 0 350px;
   }
-  #lp_wrapper a, #lp_wrapper p, #lp_wrapper p.big, #lp_wrapper section.about p {
+  #lp_wrapper a, #lp_wrapper p, #lp_wrapper p.big, #lp_wrapper section.about p, #lp_wrapper section.about p.special {
     font-size: 15px;
   }
   #lp_wrapper section.possibilities p, #lp_wrapper section.possibilities ul {
