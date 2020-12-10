@@ -8,7 +8,7 @@
 	margin-top: 60px;
 }
 
-section {
+#lp_wrapper section {
   min-height: 600px;
   height: auto;
 	border-bottom: 4px solid #ffff00;
@@ -23,11 +23,11 @@ section {
 	padding-right: 0px;
 	padding-left: 0px;
 }
-.table {
+#lp_wrapper .table {
 	width:100%;
 	display: table;
 }
-.tablecell {
+#lp_wrapper .tablecell {
 	display: table-cell;
 	vertical-align: middle;
 	height: 600px;
