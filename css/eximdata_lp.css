@@ -1,0 +1,258 @@
+#page_wrapper {
+    background: #fff;
+    margin: 0 auto;
+    overflow: hidden;
+    position: relative;
+}
+#content_lp, #lp_wrapper {
+    width: 100%;
+    margin: 0;
+    top: 0;
+    position: static;
+    overflow: visible;
+    box-sizing: border-box;
+}
+
+#lp_wrapper section {
+  min-height: 600px;
+  height: auto;
+	border-bottom: 4px solid #ed8722;
+}
+#lp_wrapper .relative {
+	position: relative;
+	min-height: 600px;
+	height: auto;
+}
+#lp_wrapper .pa_fixer {
+	padding-right: 0px;
+	padding-left: 0px;
+}
+#lp_wrapper h1 {
+	text-align: center;
+	font-size: 40px;
+	text-transform: uppercase;
+	margin: 0;
+	padding: 0;
+	color: white;
+	font-weight: normal;
+	}
+#lp_wrapper h3 {
+		font-size: 25px;
+		font-weight: 600;
+		}
+#lp_wrapper hr.center {
+	margin: 20px auto;
+	width: 20px;
+	border-top: 1px solid #ed8722;
+	border-bottom: 1px solid #ed8722;
+}
+#lp_wrapper a {
+	text-align: center;
+	width: 75%;
+	display: block;
+	font-size: 20px;
+	font-weight: 700;
+	color: #d7002c;
+	margin: 5px auto 10px;
+	padding: 12px 45px;
+	background: white;
+	border: 2px solid #ed8722;
+	border-radius: 5px;
+
+}
+#lp_wrapper a:hover {
+	color: #4aa6c9;
+	background: white;
+	text-decoration: none;
+}
+#lp_wrapper a.yellow {
+	background: #ed8722;
+	color: white;
+}
+#lp_wrapper a.yellow:hover {
+	background: white;
+	color: #4aa6c9;
+}
+#lp_wrapper .header {
+	background: #f9f9f9 url("https://prokcssdata.blob.core.windows.net/mediacontent/eximpata_header_bg.jpg") no-repeat scroll 50% center;
+}
+#lp_wrapper .header .absolute {
+	position: absolute;
+	bottom: 25%;
+	width: 100%;
+}
+#lp_wrapper .header h2 {
+	text-align: center;
+	font-size: 30px;
+	font-weight: 600;
+	margin: 0;
+	padding: 0;
+	color: white;
+	}
+#lp_wrapper .header p {
+	text-align: center;
+	font-size: 25px;
+	margin: 0 0 20px 0;
+	padding: 0;
+	color: white;
+	}
+
+
+#lp_wrapper section.about {
+	padding: 80px 0 400px;
+	background: white url("https://prokcssdata.blob.core.windows.net/mediacontent/eximpata_1section_bg.jpg") no-repeat scroll bottom center;
+}
+#lp_wrapper section.about h2, #lp_wrapper section.possibilities h2 {
+	text-align: center;
+	font-size: 30px;
+	font-weight: 600;
+	margin: 0;
+	padding: 0;
+	color: #ed8722;
+	}
+#lp_wrapper section.about p {
+	text-align: center;
+	font-size: 25px;
+	margin: 20px auto 40px;
+	padding: 20px;
+	background: white;
+	border: 2px solid #4aa6c9;
+	width: 75%;
+	}
+#lp_wrapper .price {
+	margin: 0 auto 20px;
+	text-align: center;
+}
+#lp_wrapper .price span {
+	color: #4aa6c9;
+	padding: 12px 45px;
+	font-size: 25px;
+	font-weight: 600;
+}
+#lp_wrapper section.possibilities {
+	padding: 80px 0 400px;
+	background: white url("https://prokcssdata.blob.core.windows.net/mediacontent/eximpata_2section_bg.jpg") no-repeat scroll bottom center;
+	text-align: center;
+}
+#lp_wrapper section.possibilities .youtubevideo {
+	position:relative;
+	padding-bottom:56.25%;
+	padding-top:30px;
+	height:0;
+	overflow:hidden;
+	border: 2px solid #4aa6c9;
+	margin: 20px 0;
+}
+#lp_wrapper section.possibilities .youtubevideo iframe, #lp_wrapper section.possibilities .youtubevideo object, #lp_wrapper section.possibilities .youtubevideo embed {
+	position:absolute;
+	top:0;
+	left:0;
+	width:100%;
+	height:100%;
+}
+
+#lp_wrapper p.big {
+	font-size: 25px;
+	margin: 20px auto 40px;
+	padding: 0 20px 20px 20px;
+	background: white;
+	width: 75%;
+	}
+#lp_wrapper section.possibilities p {
+	font-size: 20px;
+	}
+#lp_wrapper section.possibilities ul {
+	padding: 5px 0 40px;
+	font-size: 20px;
+}
+#lp_wrapper section.possibilities ul li{
+	list-style-type: none;
+	margin-bottom: 15px;
+}
+#lp_wrapper section.possibilities .blue {
+	margin-top: 80px;
+	background: #4aa6c9;
+	border: 2px solid #4aa6c9;
+	color: white;
+}
+
+#lp_wrapper section.possibilities .orange {
+	background: #ed8722;
+	border: 2px solid #ed8722;
+	color: white;
+}
+
+#lp_wrapper section.possibilities .img {
+	margin: 60px 20px 20px 20px;
+}
+#lp_wrapper section.contacts {
+	background-color: #d7002c;
+	min-height: auto;
+	padding: 100px 0 20px 0;
+	color: white;
+	text-align: center;
+}
+#lp_wrapper section.contacts h2 {
+	padding: 0;
+	margin: 0;
+}
+#lp_wrapper section.contacts a {
+	margin-bottom: 80px;
+	width: auto;
+	display: inline-block;
+}
+
+#cboxClose {
+	color: #ed8722;
+}
+#cboxClose:hover {
+	color: #4aa6c9;
+}
+
+/*==========  Desktop First Method  ==========*/
+
+/* Large Devices, Wide Screens */
+@media only screen and (max-width : 1200px) {
+
+}
+
+/* Medium Devices, Desktops */
+@media only screen and (max-width : 992px) {
+
+}
+
+/* Small Devices, Tablets */
+@media only screen and (max-width : 768px) {
+  #lp_wrapper .header .absolute {
+  	position: relative;
+    padding: 40px 0 20px 0;
+
+  }
+}
+
+/* Extra Small Devices, Phones */
+@media only screen and (max-width : 480px) {
+  #lp_wrapper h1 {
+    font-size: 30px;
+  }
+  #lp_wrapper h2 {
+    font-size: 20px;
+  }
+  #lp_wrapper section.about, #lp_wrapper section.possibilities {
+  	padding: 80px 0 350px;
+  }
+  #lp_wrapper a, #lp_wrapper p, #lp_wrapper p.big, #lp_wrapper section.about p {
+    font-size: 15px;
+  }
+  #lp_wrapper section.possibilities p, #lp_wrapper section.possibilities ul {
+    font-size: 12px;
+  }
+  #lp_wrapper section.possibilities .youtubevideo {
+
+  }
+}
+
+/* Custom, iPhone Retina */
+@media only screen and (max-width : 320px) {
+
+}
